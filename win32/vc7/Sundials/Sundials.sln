@@ -1,0 +1,64 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CVODES", "CVODES\CVODES.vcproj", "{12D156A1-1BF6-42DF-8572-416AC1E9FC03}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IDA", "IDA\IDA.vcproj", "{6F1DC619-9B1B-483D-965A-E06E511D2115}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "KINSOL", "KINSOL\KINSOL.vcproj", "{E57613BA-3727-4203-A0D3-F768FE175DD1}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SUNDIALS_SHARED", "SUNDIALS_SHARED\SUNDIALS_SHARED.vcproj", "{FCF87E3E-B8A7-47CA-864E-87E0166CCD79}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NVEC_SER", "NVEC_SER\NVEC_SER.vcproj", "{D1FA7E59-712E-4CC0-ACCA-85F6E41C1C81}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CVSDENX", "CVODES_DENSE\CVODES_DENSE.vcproj", "{C68E7C26-47F9-4066-9F9D-E9D601929D35}"
+	ProjectSection(ProjectDependencies) = postProject
+		{FCF87E3E-B8A7-47CA-864E-87E0166CCD79} = {FCF87E3E-B8A7-47CA-864E-87E0166CCD79}
+		{D1FA7E59-712E-4CC0-ACCA-85F6E41C1C81} = {D1FA7E59-712E-4CC0-ACCA-85F6E41C1C81}
+		{12D156A1-1BF6-42DF-8572-416AC1E9FC03} = {12D156A1-1BF6-42DF-8572-416AC1E9FC03}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{12D156A1-1BF6-42DF-8572-416AC1E9FC03}.Debug.ActiveCfg = Debug|Win32
+		{12D156A1-1BF6-42DF-8572-416AC1E9FC03}.Debug.Build.0 = Debug|Win32
+		{12D156A1-1BF6-42DF-8572-416AC1E9FC03}.Release.ActiveCfg = Release|Win32
+		{12D156A1-1BF6-42DF-8572-416AC1E9FC03}.Release.Build.0 = Release|Win32
+		{6F1DC619-9B1B-483D-965A-E06E511D2115}.Debug.ActiveCfg = Debug|Win32
+		{6F1DC619-9B1B-483D-965A-E06E511D2115}.Debug.Build.0 = Debug|Win32
+		{6F1DC619-9B1B-483D-965A-E06E511D2115}.Release.ActiveCfg = Release|Win32
+		{6F1DC619-9B1B-483D-965A-E06E511D2115}.Release.Build.0 = Release|Win32
+		{E57613BA-3727-4203-A0D3-F768FE175DD1}.Debug.ActiveCfg = Debug|Win32
+		{E57613BA-3727-4203-A0D3-F768FE175DD1}.Debug.Build.0 = Debug|Win32
+		{E57613BA-3727-4203-A0D3-F768FE175DD1}.Release.ActiveCfg = Release|Win32
+		{E57613BA-3727-4203-A0D3-F768FE175DD1}.Release.Build.0 = Release|Win32
+		{FCF87E3E-B8A7-47CA-864E-87E0166CCD79}.Debug.ActiveCfg = Debug|Win32
+		{FCF87E3E-B8A7-47CA-864E-87E0166CCD79}.Debug.Build.0 = Debug|Win32
+		{FCF87E3E-B8A7-47CA-864E-87E0166CCD79}.Release.ActiveCfg = Release|Win32
+		{FCF87E3E-B8A7-47CA-864E-87E0166CCD79}.Release.Build.0 = Release|Win32
+		{D1FA7E59-712E-4CC0-ACCA-85F6E41C1C81}.Debug.ActiveCfg = Debug|Win32
+		{D1FA7E59-712E-4CC0-ACCA-85F6E41C1C81}.Debug.Build.0 = Debug|Win32
+		{D1FA7E59-712E-4CC0-ACCA-85F6E41C1C81}.Release.ActiveCfg = Release|Win32
+		{D1FA7E59-712E-4CC0-ACCA-85F6E41C1C81}.Release.Build.0 = Release|Win32
+		{C68E7C26-47F9-4066-9F9D-E9D601929D35}.Debug.ActiveCfg = Debug|Win32
+		{C68E7C26-47F9-4066-9F9D-E9D601929D35}.Debug.Build.0 = Debug|Win32
+		{C68E7C26-47F9-4066-9F9D-E9D601929D35}.Release.ActiveCfg = Release|Win32
+		{C68E7C26-47F9-4066-9F9D-E9D601929D35}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
